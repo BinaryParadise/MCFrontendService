@@ -4,7 +4,7 @@
   <groupId>com.binaryparadise.neverland</groupId>
   <artifactId>com.binaryparadise.canary</artifactId>
   <packaging>jar</packaging>
-  <version>0.4.0</version>
+  <version>0.5.0</version>
   <name>canary api service</name>
 
   <!-- inherit parent package -->
@@ -141,8 +141,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>11</source>
+          <target>11</target>
         </configuration>
       </plugin>
     </plugins>
